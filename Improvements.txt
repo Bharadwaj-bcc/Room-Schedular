@@ -1,0 +1,15 @@
+Function takes number of people n, floor f, start time s and end time e as inputs. 
+
+First locates based on the start time and end time. 
+
+Then checks if it has the capacity for people and returns the floor and room. 
+
+For next part to pick nearest room, explain we can do a binary search to find nearest floor in case there is more than 1 room on different floor.
+
+There will always be room to improve. 
+
+I believe in refining and tuning the product to best meet the goals. For scheduling a conference, we can refine the code further.
+
+Use Greedy algorithm to further address splitting the meeting in different rooms for the entire day. Nearest floor will again take priority as it is good time management
+Instead of printing no rooms available, we can suggest conference rooms that have similar time slot availability.
+If there are two conference rooms available on same floor, allocate the room that fills up first. Like two rooms available with max people of 6 & 7 and you have only have 5 people allocate the room with max people of 6.
